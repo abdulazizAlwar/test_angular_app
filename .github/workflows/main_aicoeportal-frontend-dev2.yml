@@ -55,4 +55,4 @@ jobs:
         app-name: 'aicoeportal-frontend-dev2'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_441daef19d5848549063a04a64401a32 }}
-        package: .
+        package: ./dist/test-app
